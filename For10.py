@@ -6,4 +6,14 @@ def main(list1):
     Returns:
         list: return  answer
     """
-    return
+def main(x):
+    
+    lst = []
+    for i in x:
+        lst.append(i.capitalize())
+        
+    return lst
+
+
+list1 = ["amira", "o'g'iloy", "amina", "malika" , "nurzoda"]
+print(main(list1))
